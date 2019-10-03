@@ -1,0 +1,113 @@
+a {
+  color: green;
+  text-decoration: none;
+}
+.maand th a.Open {
+    background: green;
+    border: 1px solid green;
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+.maand th a.Dicht {
+    background: red;
+    border: 1px solid red;
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+.maand th a.Open:hover {
+    background: white;
+    border: 1px solid green;
+    color: green;
+}
+
+.maand th a.Dicht:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+}
+
+.maandtabel {
+    background-color: transparent;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.Kalender {
+    color: white;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    text-align: center;
+    background: green;
+}
+
+.Space {
+    margin: 20px auto 0 auto;
+    width: 248px;
+    height: 210px;
+    text-align: center;
+}
+
+.kalender_ {
+    text-align: center;
+    border: solid grey;
+}
+
+.kalender_ .W {
+    width: 36px;
+    font-size: 12px;
+    color: grey;
+    font-style: italic;
+    text-align: center;
+}
+
+.LW {
+    background: white;
+    border: 1px;
+    color: grey;
+}
+
+.Week_35 {
+    color: black;
+    font-size: 15px;
+    padding-top: 4px 20px;
+    text-align: center;
+    background: lightgreen;
+}
+
+.Week {
+    text-align: center;
+    border: 1px solid  grey;
+}
+.TRG {
+    background: lightgreen;
+    border: 1px solid lightgreen;
+    margin: 0px;
+}
+
+.TRR {
+    background: red;
+    border: 1px solid red;
+    margin: 0px;
+}
+
+.RSP {
+    border: 1px solid grey;
+}
+
+.G {
+    background-color: lightgreen;
+}
+
+.R {
+    background-color: red;
+}
