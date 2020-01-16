@@ -1,393 +1,418 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="TabelStyle.css">
-    </head>
-    <body>
-      <div class="Space">
-        <table class="kalender_">
-            <caption id="Kalender-september" title="Kalender September 2019" class="Kalender">
-                <b>
-                September 2019
-                </b>
-            </caption>
-            <thead>
-                <tr>
-                    <th title="Weeknummer" class="W">Nr.</th>
-                    <th title="Maandag" abbr="Maandag">Ma</th>
-                    <th title="Dinsdag" abbr="Dinsdag">Di</th>
-                    <th title="Woensdag" abr="Woensdag">Wo</th>
-                    <th title="Donderdag" abr="Donderdag">Do</th>
-                    <th title="Vrijdag" abr="Vrijdag">Vr</th>
-                    <th title="Zaterdag" abr="Zaterdag">Za</th>
-                    <th title="Zondag" abr="Zondag">Zo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td title="Weeknummer35" class="W"><a class="LW" href="Week(test).html" target="Week 35">35</a></td>
-                    <td class="Leegvakje" colspan="6"></td>
-                    <td class="G">1</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer2=36" class="W"><a class="LW" href="Week(test).html" target="Week 36">36</a></td>
-                    <td class="G">2</td>
-                    <td class="G">3</td>
-                    <td class="G">4</td>
-                    <td class="G">5</td>
-                    <td class="G">6</td>
-                    <td class="G">7</td>
-                    <td class="G">8</td> 
-                </tr>
-                <tr>
-                    <td title="Weeknummer37" class="W"><a class="LW" href="Week(test).html" target="Week 37">37</a></td>
-                    <td class="G">9</td>
-                    <td class="G">10</td>
-                    <td class="G">11</td>
-                    <td class="G">12</td>
-                    <td class="G">13</td>
-                    <td class="G">14</td>
-                    <td class="G">15</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer38" class="W"><a class="LW" href="Week(test).html" target="Week 38">38</a></td>
-                    <td class="G">16</td>
-                    <td class="G">17</td>
-                    <td class="G">18</td>
-                    <td class="G">19</td>
-                    <td class="G">20</td>
-                    <td class="G">21</td>
-                    <td class="G">22</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer39" class="W"><a class="LW" href="Week(test).html" target="Week 39">39</a></td>
-                    <td class="G">23</td>
-                    <td class="G">24</td>
-                    <td class="G">25</td>
-                    <td class="G">26</td>
-                    <td class="G">27</td>
-                    <td class="G">28</td>
-                    <td class="G">29</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer40"class="W"><a class="LW" href="Week(test).html" target="Week 40">40</a></td>
-                    <td class="G">30</td>
-                    <td class="Leegvakje" colspan="6"></td>
-                </tr>    
-            </tbody>
-            <tfooter>
-                <table>
 
-                </table>
-            </tfooter>
+<head>
+  <link rel="stylesheet" type="text/css" href="TabelStyle.css">
+</head>
+
+<body>
+
+
+  <div class="Space">
+    <div id="foo" style='margin-bottom: 10px;display: none'>
+      <h1>Name</h1>
+      <input type="text">
+
+    </div>
+    <table class="kalender_">
+      <caption id="Kalender-september" title="Kalender September 2019" class="Kalender">
+        <b>
+          September 2019
+        </b>
+      </caption>
+      <thead>
+        <tr>
+          <th title="Weeknummer" class="W">Nr.</th>
+          <th title="Maandag" abbr="Maandag">Ma</th>
+          <th title="Dinsdag" abbr="Dinsdag">Di</th>
+          <th title="Woensdag" abr="Woensdag">Wo</th>
+          <th title="Donderdag" abr="Donderdag">Do</th>
+          <th title="Vrijdag" abr="Vrijdag">Vr</th>
+          <th title="Zaterdag" abr="Zaterdag">Za</th>
+          <th title="Zondag" abr="Zondag">Zo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td title="Weeknummer35" class="W"><a class="LW" href="Week(test).html" target="Week 35">35</a></td>
+          <td class="Leegvakje" colspan="6"></td>
+          <td class="G" onclick="naam()" style="cursor: pointer;">1</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer2=36" class="W"><a class="LW" href="Week(test).html" target="Week 36">36</a></td>
+          <td class="G">2</td>
+          <td class="G">3</td>
+          <td class="G">4</td>
+          <td class="G">5</td>
+          <td class="G">6</td>
+          <td class="G">7</td>
+          <td class="G">8</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer37" class="W"><a class="LW" href="Week(test).html" target="Week 37">37</a></td>
+          <td class="G">9</td>
+          <td class="G">10</td>
+          <td class="G">11</td>
+          <td class="G">12</td>
+          <td class="G">13</td>
+          <td class="G">14</td>
+          <td class="G">15</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer38" class="W"><a class="LW" href="Week(test).html" target="Week 38">38</a></td>
+          <td class="G">16</td>
+          <td class="G">17</td>
+          <td class="G">18</td>
+          <td class="G">19</td>
+          <td class="G">20</td>
+          <td class="G">21</td>
+          <td class="G">22</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer39" class="W"><a class="LW" href="Week(test).html" target="Week 39">39</a></td>
+          <td class="G">23</td>
+          <td class="G">24</td>
+          <td class="G">25</td>
+          <td class="G">26</td>
+          <td class="G">27</td>
+          <td class="G">28</td>
+          <td class="G">29</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer40" class="W"><a class="LW" href="Week(test).html" target="Week 40">40</a></td>
+          <td class="G">30</td>
+          <td class="Leegvakje" colspan="6"></td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <table>
+
         </table>
-      </div>
-      <div class="Space">
-        <table class="kalender_">
-            <caption id="Kalender-oktober" title="Kalender Oktober 2019" class="Kalender">
-                <b>
-                Oktober 2019
-                </b>
-            </caption>
-            <thead>
-                <th title="Weeknummer" class="W">Nr.</th>
-                <th title="Maandag" abbr="Maandag">Ma</th>
-                <th title="Dinsdag" abbr="Dinsdag">Di</th>
-                <th title="Woensdag" abr="Woensdag">Wo</th>
-                <th title="Donderdag" abr="Donderdag">Do</th>
-                <th title="Vrijdag" abr="Vrijdag">Vr</th>
-                <th title="Zaterdag" abr="Zaterdag">Za</th>
-                <th title="Zondag" abr="Zondag">Zo</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td title="Weeknummer40" class="W">40</td>
-                    <td class="Leegvakje" colspan="1"></td>
-                    <td class="G">1</td>
-                    <td class="G">2</td>
-                    <td class="G">3</td>
-                    <td class="G">4</td>
-                    <td class="G">5</td>
-                    <td class="G">6</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer41" class="W">41</td>
-                    <td class="G">7</td>
-                    <td class="G">8</td>
-                    <td class="G">9</td>
-                    <td class="G">10</td>
-                    <td class="G">11</td>
-                    <td class="G">12</td>
-                    <td class="G">13</td> 
-                </tr>
-                <tr>
-                    <td title="Weeknummer42" class="W">42</td>
-                    <td class="G">14</td>
-                    <td class="G">15</td>
-                    <td class="G">16</td>
-                    <td class="G">17</td>
-                    <td class="G">18</td>
-                    <td class="G">19</td>
-                    <td class="G">20</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer43" class="W">43</td>
-                    <td class="G">21</td>
-                    <td class="G">22</td>
-                    <td class="G">23</td>
-                    <td class="G">24</td>
-                    <td class="G">25</td>
-                    <td class="G">26</td>
-                    <td class="G">27</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer44" class="W">44</td>
-                    <td class="G">28</td>
-                    <td class="G">29</td>
-                    <td class="G">30</td>
-                    <td class="G">31</td>
-                    <td class="Leegvakje" colspan="3"></td>
-                </tr>
-                <tr>
-                    <td class="W"></td>
-                    <td class="Leegvakje" colspan="7"></td>
-                </tr>    
-            </tbody>
-            <tfooter>
-            </tfooter>
+      </tfooter>
+    </table>
+  </div>
+  <div class="Space">
+    <table class="kalender_">
+      <caption id="Kalender-oktober" title="Kalender Oktober 2019" class="Kalender">
+        <b>
+          Oktober 2019
+        </b>
+      </caption>
+      <thead>
+        <th title="Weeknummer" class="W">Nr.</th>
+        <th title="Maandag" abbr="Maandag">Ma</th>
+        <th title="Dinsdag" abbr="Dinsdag">Di</th>
+        <th title="Woensdag" abr="Woensdag">Wo</th>
+        <th title="Donderdag" abr="Donderdag">Do</th>
+        <th title="Vrijdag" abr="Vrijdag">Vr</th>
+        <th title="Zaterdag" abr="Zaterdag">Za</th>
+        <th title="Zondag" abr="Zondag">Zo</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td title="Weeknummer40" class="W">40</td>
+          <td class="Leegvakje" colspan="1"></td>
+          <td class="G">1</td>
+          <td class="G">2</td>
+          <td class="G">3</td>
+          <td class="G">4</td>
+          <td class="G">5</td>
+          <td class="G">6</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer41" class="W">41</td>
+          <td class="G">7</td>
+          <td class="G">8</td>
+          <td class="G">9</td>
+          <td class="G">10</td>
+          <td class="G">11</td>
+          <td class="G">12</td>
+          <td class="G">13</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer42" class="W">42</td>
+          <td class="G">14</td>
+          <td class="G">15</td>
+          <td class="G">16</td>
+          <td class="G">17</td>
+          <td class="G">18</td>
+          <td class="G">19</td>
+          <td class="G">20</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer43" class="W">43</td>
+          <td class="G">21</td>
+          <td class="G">22</td>
+          <td class="G">23</td>
+          <td class="G">24</td>
+          <td class="G">25</td>
+          <td class="G">26</td>
+          <td class="G">27</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer44" class="W">44</td>
+          <td class="G">28</td>
+          <td class="G">29</td>
+          <td class="G">30</td>
+          <td class="G">31</td>
+          <td class="Leegvakje" colspan="3"></td>
+        </tr>
+        <tr>
+          <td class="W"></td>
+          <td class="Leegvakje" colspan="7"></td>
+        </tr>
+      </tbody>
+      <tfooter>
+      </tfooter>
+    </table>
+  </div>
+  <div class="Space">
+    <table class="kalender_">
+      <caption id="Kalender-november" title="Kalender November 2019" class="Kalender">
+        <b>
+          November 2019
+        </b>
+      </caption>
+      <thead>
+        <th title="Weeknummer" class="W">Nr.</th>
+        <th title="Maandag" abbr="Maandag">Ma</th>
+        <th title="Dinsdag" abbr="Dinsdag">Di</th>
+        <th title="Woensdag" abr="Woensdag">Wo</th>
+        <th title="Donderdag" abr="Donderdag">Do</th>
+        <th title="Vrijdag" abr="Vrijdag">Vr</th>
+        <th title="Zaterdag" abr="Zaterdag">Za</th>
+        <th title="Zondag" abr="Zondag">Zo</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td title="Weeknummer44" class="W">44</td>
+          <td class="Leegvakje" colspan="4"></td>
+          <td class="R">1</td>
+          <td class="G">2</td>
+          <td class="G">3</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer45" class="W">45</td>
+          <td class="G">4</td>
+          <td class="G">5</td>
+          <td class="G">6</td>
+          <td class="R">7</td>
+          <td class="G">8</td>
+          <td class="G">9</td>
+          <td class="G">10</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer46" class="W">46</td>
+          <td class="G">11</td>
+          <td class="G">12</td>
+          <td class="G">13</td>
+          <td class="G">14</td>
+          <td class="G">15</td>
+          <td class="G">16</td>
+          <td class="G">17</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer47" class="W">47</td>
+          <td class="G">18</td>
+          <td class="G">19</td>
+          <td class="G">20</td>
+          <td class="G">21</td>
+          <td class="G">22</td>
+          <td class="G">23</td>
+          <td class="G">24</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer13" class="W">13</td>
+          <td class="G">25</td>
+          <td class="G">26</td>
+          <td class="G">27</td>
+          <td class="G">28</td>
+          <td class="G">29</td>
+          <td class="G">30</td>
+          <td class="Leegvakje" colspan="1"></td>
+        </tr>
+        <tr>
+          <td class="W"></td>
+          <td class="Leegvakje" colspan="7"></td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <table>
+
         </table>
-      </div>
-      <div class="Space">
-        <table class="kalender_">
-            <caption id="Kalender-november" title="Kalender November 2019" class="Kalender">
-                <b>
-                November 2019
-                </b>
-            </caption>
-            <thead>
-                <th title="Weeknummer" class="W">Nr.</th>
-                <th title="Maandag" abbr="Maandag">Ma</th>
-                <th title="Dinsdag" abbr="Dinsdag">Di</th>
-                <th title="Woensdag" abr="Woensdag">Wo</th>
-                <th title="Donderdag" abr="Donderdag">Do</th>
-                <th title="Vrijdag" abr="Vrijdag">Vr</th>
-                <th title="Zaterdag" abr="Zaterdag">Za</th>
-                <th title="Zondag" abr="Zondag">Zo</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td title="Weeknummer44" class="W">44</td>
-                    <td class="Leegvakje" colspan="4"></td>
-                    <td class="R">1</td>
-                    <td class="G">2</td>
-                    <td class="G">3</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer45" class="W">45</td>
-                    <td class="G">4</td>
-                    <td class="G">5</td>
-                    <td class="G">6</td>
-                    <td class="R">7</td>
-                    <td class="G">8</td>
-                    <td class="G">9</td>
-                    <td class="G">10</td> 
-                </tr>
-                <tr>
-                    <td title="Weeknummer46" class="W">46</td>
-                    <td class="G">11</td>
-                    <td class="G">12</td>
-                    <td class="G">13</td>
-                    <td class="G">14</td>
-                    <td class="G">15</td>
-                    <td class="G">16</td>
-                    <td class="G">17</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer47" class="W">47</td>
-                    <td class="G">18</td>
-                    <td class="G">19</td>
-                    <td class="G">20</td>
-                    <td class="G">21</td>
-                    <td class="G">22</td>
-                    <td class="G">23</td>
-                    <td class="G">24</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer13" class="W">13</td>
-                    <td class="G">25</td>
-                    <td class="G">26</td>
-                    <td class="G">27</td>
-                    <td class="G">28</td>
-                    <td class="G">29</td>
-                    <td class="G">30</td>
-                    <td class="Leegvakje" colspan="1"></td>
-                </tr>
-                <tr>
-                    <td class="W"></td>
-                    <td class="Leegvakje" colspan="7"></td>
-                </tr>    
-            </tbody>
-            <tfooter>
-                <table>
-        
-                </table>
-            </tfooter>
+      </tfooter>
+    </table>
+  </div>
+  <div class="Space">
+    <table class="kalender_">
+      <caption id="Kalender-december" title="Kalender December 2019" class="Kalender">
+        <b>
+          December 2019
+        </b>
+      </caption>
+      <thead>
+        <th title="Weeknummer" class="W">Nr.</th>
+        <th title="Maandag" abbr="Maandag">Ma</th>
+        <th title="Dinsdag" abbr="Dinsdag">Di</th>
+        <th title="Woensdag" abr="Woensdag">Wo</th>
+        <th title="Donderdag" abr="Donderdag">Do</th>
+        <th title="Vrijdag" abr="Vrijdag">Vr</th>
+        <th title="Zaterdag" abr="Zaterdag">Za</th>
+        <th title="Zondag" abr="Zondag">Zo</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td title="Weeknummer48" class="W">48</td>
+          <td class="Leegvakje" colspan="6"></td>
+          <td class="G">1</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer49" class="W">49</td>
+          <td class="G">2</td>
+          <td class="G">3</td>
+          <td class="G">4</td>
+          <td class="G">5</td>
+          <td class="G">6</td>
+          <td class="G">7</td>
+          <td class="G">8</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer50" class="W">50</td>
+          <td class="G">9</td>
+          <td class="G">10</td>
+          <td class="R">11</td>
+          <td class="G">12</td>
+          <td class="G">13</td>
+          <td class="G">14</td>
+          <td class="G">15</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer51" class="W">51</td>
+          <td class="G">16</td>
+          <td class="G">17</td>
+          <td class="G">18</td>
+          <td class="G">19</td>
+          <td class="G">20</td>
+          <td class="G">21</td>
+          <td class="G">22</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer52" class="W">52</td>
+          <td class="G">23</td>
+          <td class="G">24</td>
+          <td class="G">25</td>
+          <td class="G">26</td>
+          <td class="G">27</td>
+          <td class="G">28</td>
+          <td class="G">29</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer1" class="W">1</td>
+          <td class="G">30</td>
+          <td class="G">31</td>
+          <td class="Leegvakje" colspan="5"></td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <table>
+
         </table>
-      </div>
-      <div class="Space">
-        <table class="kalender_">
-            <caption id="Kalender-december" title="Kalender December 2019" class="Kalender">
-                <b>
-                December 2019
-                </b>
-            </caption>
-            <thead>
-                <th title="Weeknummer" class="W">Nr.</th>
-                <th title="Maandag" abbr="Maandag">Ma</th>
-                <th title="Dinsdag" abbr="Dinsdag">Di</th>
-                <th title="Woensdag" abr="Woensdag">Wo</th>
-                <th title="Donderdag" abr="Donderdag">Do</th>
-                <th title="Vrijdag" abr="Vrijdag">Vr</th>
-                <th title="Zaterdag" abr="Zaterdag">Za</th>
-                <th title="Zondag" abr="Zondag">Zo</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td title="Weeknummer48" class="W">48</td>
-                    <td class="Leegvakje" colspan="6"></td>
-                    <td class="G">1</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer49" class="W">49</td>
-                    <td class="G">2</td>
-                    <td class="G">3</td>
-                    <td class="G">4</td>
-                    <td class="G">5</td>
-                    <td class="G">6</td>
-                    <td class="G">7</td>
-                    <td class="G">8</td> 
-                </tr>
-                <tr>
-                    <td title="Weeknummer50" class="W">50</td>
-                    <td class="G">9</td>
-                    <td class="G">10</td>
-                    <td class="R">11</td>
-                    <td class="G">12</td>
-                    <td class="G">13</td>
-                    <td class="G">14</td>
-                    <td class="G">15</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer51" class="W">51</td>
-                    <td class="G">16</td>
-                    <td class="G">17</td>
-                    <td class="G">18</td>
-                    <td class="G">19</td>
-                    <td class="G">20</td>
-                    <td class="G">21</td>
-                    <td class="G">22</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer52" class="W">52</td>
-                    <td class="G">23</td>
-                    <td class="G">24</td>
-                    <td class="G">25</td>
-                    <td class="G">26</td>
-                    <td class="G">27</td>
-                    <td class="G">28</td>
-                    <td class="G">29</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer1"class="W">1</td>
-                    <td class="G">30</td>
-                    <td class="G">31</td>
-                    <td class="Leegvakje" colspan="5"></td>
-                </tr>    
-            </tbody>
-            <tfooter>
-                <table>
-            
-                </table>
-            </tfooter>
+      </tfooter>
+    </table>
+  </div>
+  <div class="Space">
+    <table class="kalender_">
+      <caption id="Kalender-januari" title="Kalender Januari 2020" class="Kalender">
+        <b>
+          Januari 2020
+        </b>
+      </caption>
+      <thead>
+        <th title="Weeknummer" class="W">Nr.</th>
+        <th title="Maandag" abbr="Maandag">Ma</th>
+        <th title="Dinsdag" abbr="Dinsdag">Di</th>
+        <th title="Woensdag" abr="Woensdag">Wo</th>
+        <th title="Donderdag" abr="Donderdag">Do</th>
+        <th title="Vrijdag" abr="Vrijdag">Vr</th>
+        <th title="Zaterdag" abr="Zaterdag">Za</th>
+        <th title="Zondag" abr="Zondag">Zo</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td title="Weeknummer1" class="W">1</td>
+          <td class="Leegvakje" colspan="2"></td>
+          <td class="G">1</td>
+          <td class="G">2</td>
+          <td class="G">3</td>
+          <td class="G">4</td>
+          <td class="G">5</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer2" class="W">2</td>
+          <td class="G">6</td>
+          <td class="G">7</td>
+          <td class="G">8</td>
+          <td class="G">9</td>
+          <td class="G">10</td>
+          <td class="G">11</td>
+          <td class="G">12</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer3" class="W">3</td>
+          <td class="G">13</td>
+          <td class="G">14</td>
+          <td class="G">15</td>
+          <td class="G">16</td>
+          <td class="G">17</td>
+          <td class="G">18</td>
+          <td class="G">19</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer4" class="W">4</td>
+          <td class="G">20</td>
+          <td class="G">21</td>
+          <td class="G">22</td>
+          <td class="G">23</td>
+          <td class="G">24</td>
+          <td class="G">25</td>
+          <td class="G">26</td>
+        </tr>
+        <tr>
+          <td title="Weeknummer5" class="W">5</td>
+          <td class="G">27</td>
+          <td class="G">28</td>
+          <td class="G">29</td>
+          <td class="G">30</td>
+          <td class="G">31</td>
+          <td class="Leegvakje" colspan="2"></td>
+        </tr>
+        <tr>
+          <td class="W"></td>
+          <td class="Leegvakje" colspan="7"></td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <table>
+
         </table>
-      </div>
-      <div class="Space">             
-        <table class="kalender_">
-            <caption id="Kalender-januari" title="Kalender Januari 2020" class="Kalender">
-                <b>
-                Januari 2020
-                </b>
-            </caption>
-            <thead>
-                <th title="Weeknummer" class="W">Nr.</th>
-                <th title="Maandag" abbr="Maandag">Ma</th>
-                <th title="Dinsdag" abbr="Dinsdag">Di</th>
-                <th title="Woensdag" abr="Woensdag">Wo</th>
-                <th title="Donderdag" abr="Donderdag">Do</th>
-                <th title="Vrijdag" abr="Vrijdag">Vr</th>
-                <th title="Zaterdag" abr="Zaterdag">Za</th>
-                <th title="Zondag" abr="Zondag">Zo</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td title="Weeknummer1" class="W">1</td>
-                    <td class="Leegvakje" colspan="2"></td>
-                    <td class="G">1</td>
-                    <td class="G">2</td>
-                    <td class="G">3</td>
-                    <td class="G">4</td>
-                    <td class="G">5</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer2" class="W">2</td>
-                    <td class="G">6</td>
-                    <td class="G">7</td>
-                    <td class="G">8</td>
-                    <td class="G">9</td>
-                    <td class="G">10</td>
-                    <td class="G">11</td>
-                    <td class="G">12</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer3" class="W">3</td>
-                    <td class="G">13</td>
-                    <td class="G">14</td>
-                    <td class="G">15</td>
-                    <td class="G">16</td>
-                    <td class="G">17</td>
-                    <td class="G">18</td>
-                    <td class="G">19</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer4" class="W">4</td>
-                    <td class="G">20</td>
-                    <td class="G">21</td>
-                    <td class="G">22</td>
-                    <td class="G">23</td>
-                    <td class="G">24</td>
-                    <td class="G">25</td>
-                    <td class="G">26</td>
-                </tr>
-                <tr>
-                    <td title="Weeknummer5" class="W">5</td>
-                    <td class="G">27</td>
-                    <td class="G">28</td>
-                    <td class="G">29</td>
-                    <td class="G">30</td>
-                    <td class="G">31</td>
-                    <td class="Leegvakje" colspan="2"></td>
-                </tr>
-                <tr>
-                    <td class="W"></td>
-                    <td class="Leegvakje" colspan="7"></td>
-                </tr>    
-            </tbody>
-            <tfooter>
-                <table>
-                
-                </table>
-            </tfooter>
-        </table>
-      </div>
-    </body>
+      </tfooter>
+    </table>
+  </div>
+
+  <script>
+    const el = document.getElementById('foo');
+
+    function naam() {
+      el.style.display = 'block';
+
+    }
+
+    function plus(a, b) {
+      console.log(a + b)
+    }
+
+    plus(1, 2)
+  </script>
+</body>
+
 </html>
